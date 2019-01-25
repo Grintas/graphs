@@ -1,2 +1,2 @@
 # graphs
-A simple graph class with a few algorithms
+A simple graph module with a few algorithms
