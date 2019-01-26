@@ -85,5 +85,6 @@ def generate_matrices(input_dir = 'data/'):
 """.strip()
     f.write(newmatrix)
     f.close()
+generate_matrices()
 
 ## more at  http://graphonline.ru/en/graphs_examples

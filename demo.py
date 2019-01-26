@@ -1,13 +1,20 @@
-import graphmodule
-import inputgen
+from graphmodule import *
+from  inputgen import *
 
 """
 	This is an example demonstrating how graphmodule works
+	You can use your own adjecency matrix or choose from ones in the directory data/:
+		A_directed.txt
+		A_undirected.txt
+		B_directed.txt
+		B_undirected.txt
+		C_undirected.txt
+		D_undirected_weighted.txt
 """
 
-#generate_matrices()
+
 input_dir = 'data/'
-f = open(input_dir+'D_undirected_weighted.txt','r')
+f = open(input_dir+'A_directed.txt','r')
 m=[l.split(' ') for l in f.read().split('\n')]		# read adjecency matrix from file and save it in a two-dimensional list
 f.close()
 
