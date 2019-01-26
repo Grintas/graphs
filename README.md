@@ -16,7 +16,7 @@ g = Graph(m)
 generates a graph, which you can print using
 print(g)
 
-this results in printing it's adjecency matrix:
+this results in printing it's adjecency matrix:  
 \ A B C D E F  
 A 0 1 1 0 0 0  
 B 1 0 0 0 0 0  
@@ -27,9 +27,9 @@ F 0 0 0 0 1 0
 
 given only one argument it automatically assigns letter names for all vertices, you can also specify another argument - a list of vertex names:
 
-names = ['first', 'second', 'third', 'fourth', 'sixth']
-print(Graph(m, names))
-outputs the following:
+names = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth']  
+print(Graph(m, names))  
+outputs the following:  
 \ first second third fourth fifth sixth
 first 0 1 1 0 0 0
 second 1 0 0 0 0 0
@@ -39,7 +39,7 @@ fifth 0 0 0 1 0 0
 sixth 0 0 0 0 1 0
 
 
-you can perform a breadth- first search on it using
+you can perform a breadth- first search on it using  
 g = Graph(m)  
 g.bfs('A')  
 or  
